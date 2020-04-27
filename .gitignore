@@ -36,7 +36,7 @@ mvnw
 mvnw.cmd
 
 ###properties###
-/letopo-launcher/src/main/resources/application-dev.properties
+/letopo-launcher/src/main/resources/application-test.properties
 /letopo-launcher/src/main/resources/application-prd.properties
 
 ### target ###
