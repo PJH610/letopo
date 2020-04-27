@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="letopo-admin-api" />
+        <module name="letopo-app-api" />
+        <module name="letopo-biz" />
+        <module name="letopo-core" />
+        <module name="letopo-data" />
+        <module name="letopo-launcher" />
+        <module name="letopo-plugin-core" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="letopo" target="1.8" />
+      <module name="letopo-admin-api" target="1.8" />
+      <module name="letopo-app-api" target="1.8" />
+      <module name="letopo-biz" target="1.8" />
+      <module name="letopo-core" target="1.8" />
+      <module name="letopo-data" target="1.8" />
+      <module name="letopo-launcher" target="1.8" />
+      <module name="letopo-plugin-core" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="letopo-admin-api" options="-parameters" />
+      <module name="letopo-app-api" options="-parameters" />
+      <module name="letopo-biz" options="-parameters" />
+      <module name="letopo-core" options="-parameters" />
+      <module name="letopo-data" options="-parameters" />
+      <module name="letopo-launcher" options="-parameters" />
+      <module name="letopo-plugin-core" options="-parameters" />
+    </option>
+  </component>
+</project>

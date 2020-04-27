@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/letopo-admin-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/letopo-app-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/letopo-biz" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/letopo-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/letopo-data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/letopo-launcher" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/letopo-plugin-core" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/letopo.iml" filepath="$PROJECT_DIR$/letopo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/letopo-admin-api/letopo-admin-api.iml" filepath="$PROJECT_DIR$/letopo-admin-api/letopo-admin-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/letopo-app-api/letopo-app-api.iml" filepath="$PROJECT_DIR$/letopo-app-api/letopo-app-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/letopo-biz/letopo-biz.iml" filepath="$PROJECT_DIR$/letopo-biz/letopo-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/letopo-core/letopo-core.iml" filepath="$PROJECT_DIR$/letopo-core/letopo-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/letopo-data/letopo-data.iml" filepath="$PROJECT_DIR$/letopo-data/letopo-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/letopo-launcher/letopo-launcher.iml" filepath="$PROJECT_DIR$/letopo-launcher/letopo-launcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/letopo-plugin-core/letopo-plugin-core.iml" filepath="$PROJECT_DIR$/letopo-plugin-core/letopo-plugin-core.iml" />
+    </modules>
+  </component>
+</project>
