@@ -11,7 +11,7 @@
     </parent>
     <groupId>com.letopo</groupId>
     <artifactId>letopo</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1-RELEASE</version>
     <name>letopo</name>
     <description>letopo project for Spring Boot</description>
 
