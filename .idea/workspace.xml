@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21dd3dff-9ecc-4dd9-91af-f56be2bab246" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/inter/IPluginPaySuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/inter/IPluginPaySuccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/inter/IPluginPreOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/inter/IPluginPreOrder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/letopo-app-api/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/inter/IPluginPaySuccess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="135">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -53,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/util/RSAUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -68,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/RSAUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="315">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,7 +78,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -94,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/inter/IPluginPreOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -163,14 +164,14 @@
         <option value="$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/annotaion/Plugin.java" />
         <option value="$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/exception/PluginException.java" />
         <option value="$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/inter/AbstractPlugin.java" />
-        <option value="$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/inter/IPluginPaySuccess.java" />
-        <option value="$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/inter/IPluginPreOrder.java" />
         <option value="$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/inter/IPluginUpdateCategory.java" />
         <option value="$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/inter/IPluginUpdateGoods.java" />
         <option value="$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/util/RSAUtils.java" />
         <option value="$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/manager/PluginsManager.java" />
         <option value="$PROJECT_DIR$/letopo-plugin-core/pom.xml" />
         <option value="$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/RSAUtils.java" />
+        <option value="$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/inter/IPluginPreOrder.java" />
+        <option value="$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/inter/IPluginPaySuccess.java" />
       </list>
     </option>
   </component>
@@ -191,6 +192,71 @@
               <item name="letopo" type="b2602c69:ProjectViewProjectNode" />
               <item name="letopo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="letopo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letopo" type="462c0819:PsiDirectoryNode" />
+              <item name="letopo-plugin-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="letopo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letopo" type="462c0819:PsiDirectoryNode" />
+              <item name="letopo-plugin-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="letopo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letopo" type="462c0819:PsiDirectoryNode" />
+              <item name="letopo-plugin-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="letopo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letopo" type="462c0819:PsiDirectoryNode" />
+              <item name="letopo-plugin-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="letopo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letopo" type="462c0819:PsiDirectoryNode" />
+              <item name="letopo-plugin-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="letopo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letopo" type="462c0819:PsiDirectoryNode" />
+              <item name="letopo-plugin-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="inter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="letopo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letopo" type="462c0819:PsiDirectoryNode" />
+              <item name="letopo-plugin-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="letopo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letopo" type="462c0819:PsiDirectoryNode" />
+              <item name="letopo-plugin-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -202,7 +268,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587975987478" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587976162864" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -238,15 +304,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587972060481</updated>
-      <workItem from="1587972061787" duration="3865000" />
+      <workItem from="1587972061787" duration="4111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3865000" />
+    <option name="totallyTimeSpent" value="4111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -554,20 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/inter/IPluginPreOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/inter/IPluginPaySuccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/manager/PluginsManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -585,7 +638,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/util/RSAUtils.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/inter/IPluginPreOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/inter/IPluginPaySuccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/RSAUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
@@ -595,18 +665,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/RSAUtils.java">
+    <entry file="file://$PROJECT_DIR$/letopo-plugin-core/src/main/java/com/letopo/plugin/core/util/RSAUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="315">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

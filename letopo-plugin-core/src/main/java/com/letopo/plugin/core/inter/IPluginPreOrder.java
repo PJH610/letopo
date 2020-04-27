@@ -7,6 +7,6 @@ package com.letopo.plugin.core.inter;
  */
 public interface IPluginPreOrder {
 
-    public OrderRequestDTO invoke(OrderRequestDTO requestDTO);
+//    public OrderRequestDTO invoke(OrderRequestDTO requestDTO);
 
 }
