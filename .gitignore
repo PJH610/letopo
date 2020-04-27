@@ -1,0 +1,70 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+#/build/
+
+### VS Code ###
+.vscode/
+
+### maven ###
+.mvn
+mvnw
+mvnw.cmd
+
+###properties###
+/letopo-launcher/src/main/resources/application-dev.properties
+/letopo-launcher/src/main/resources/application-prd.properties
+
+### target ###
+/target/
+/letopo-admin-api/target/
+/letopo-app-api/target/
+/letopo-biz/target/
+/letopo-data/target/
+/letopo-core/target/
+/letopo-launcher/target/
+/letopo-plugin-core/target/
+/letopo-app/unpackage/dist/
+/letopo-app/unpackage/resources/
+/letopo-app/unpackage/debug/
+/letopo-admin/dist.zip
+
+###node_modules###
+/letopo-admin/node_modules/
+/letopo-app/node_modules/
+
+
+###logs###
+letopo.log
+letopo.log.*.gz
+letopo.log.*.tmp
+
+
+### plugins ###
+/plugins/
+/letopo-app/pages/plugins/
+/letopo-admin/src/views/plugins/
