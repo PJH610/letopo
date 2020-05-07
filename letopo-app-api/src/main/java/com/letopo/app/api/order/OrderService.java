@@ -12,7 +12,9 @@ import com.letopo.data.dto.order.OrderRequestDTO;
 import com.letopo.data.model.Page;
 
 /**
- * Created by rize on 2019/7/4.
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-30 11:50
  */
 @HttpOpenApi(group = "order", description = "订单服务")
 public interface OrderService {

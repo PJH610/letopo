@@ -6,7 +6,9 @@ import com.letopo.core.exception.ServiceException;
 import com.letopo.data.dto.ConfigDTO;
 
 /**
- * Created by rize on 2019/7/21.
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-30 13:30
  */
 @HttpOpenApi(group = "config", description = "商户配置服务")
 public interface ConfigService {

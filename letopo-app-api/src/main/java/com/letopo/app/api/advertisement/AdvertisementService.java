@@ -10,11 +10,9 @@ import com.letopo.data.domain.AdvertisementDO;
 import java.util.List;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: kbq
- * Date: 2019-07-08
- * Time: 下午8:22
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-30 17:16
  */
 
 @HttpOpenApi(group = "advertisement",description = "广告推销")

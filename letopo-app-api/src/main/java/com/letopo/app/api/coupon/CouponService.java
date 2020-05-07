@@ -12,7 +12,9 @@ import com.letopo.data.dto.UserCouponDTO;
 import java.util.List;
 
 /**
- * Created by rize on 2019/7/4.
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-30 13:18
  */
 @HttpOpenApi(group = "coupon", description = "优惠券服务")
 public interface CouponService {

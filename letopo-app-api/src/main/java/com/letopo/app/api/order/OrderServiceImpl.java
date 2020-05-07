@@ -1,8 +1,6 @@
 package com.letopo.app.api.order;
 
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
-import com.github.binarywang.wxpay.bean.order.WxPayAppOrderResult;
-import com.github.binarywang.wxpay.bean.order.WxPayMpOrderResult;
 import com.github.binarywang.wxpay.bean.request.WxPayUnifiedOrderRequest;
 import com.github.binarywang.wxpay.constant.WxPayConstants;
 import com.github.binarywang.wxpay.exception.WxPayException;
@@ -14,17 +12,17 @@ import com.letopo.biz.service.groupshop.GroupShopBizService;
 import com.letopo.biz.service.notify.AdminNotifyBizService;
 import com.letopo.biz.service.order.OrderBizService;
 import com.letopo.biz.service.user.UserBizService;
-import com.letopo.core.exception.ExceptionDefinition;
 import com.letopo.core.exception.AppServiceException;
+import com.letopo.core.exception.ExceptionDefinition;
 import com.letopo.core.exception.ServiceException;
 import com.letopo.core.exception.ThirdPartServiceException;
 import com.letopo.core.util.GeneratorUtil;
 import com.letopo.data.component.LockComponent;
 import com.letopo.data.domain.*;
-import com.letopo.data.dto.goods.GroupShopDTO;
-import com.letopo.data.dto.goods.SkuDTO;
 import com.letopo.data.dto.UserCouponDTO;
 import com.letopo.data.dto.freight.ShipTraceDTO;
+import com.letopo.data.dto.goods.GroupShopDTO;
+import com.letopo.data.dto.goods.SkuDTO;
 import com.letopo.data.dto.order.OrderDTO;
 import com.letopo.data.dto.order.OrderRequestDTO;
 import com.letopo.data.dto.order.OrderRequestSkuDTO;
@@ -42,11 +40,16 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.CollectionUtils;
 import org.springframework.util.StringUtils;
 
-import java.util.*;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
- * Created by rize on 2019/7/4.
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-30 11:59
  */
 @Service
 public class OrderServiceImpl implements OrderService {

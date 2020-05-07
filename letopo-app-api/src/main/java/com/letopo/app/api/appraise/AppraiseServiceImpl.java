@@ -29,10 +29,11 @@ import org.springframework.util.CollectionUtils;
 import java.util.Date;
 import java.util.List;
 
-/*
-@author kbq
-@date  2019/7/6 - 11:08
-*/
+/**
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-30 17:16
+ */
 @Service
 public class AppraiseServiceImpl implements AppraiseService {
 

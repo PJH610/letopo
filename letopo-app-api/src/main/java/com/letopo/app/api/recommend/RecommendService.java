@@ -11,11 +11,9 @@ import com.letopo.data.dto.RecommendDTO;
 import java.util.List;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: kbq
- * Date: 2019-07-08
- * Time: 下午3:33
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-30 20:08
  */
 
 @HttpOpenApi(group = "recommend", description = "推荐商品接口")

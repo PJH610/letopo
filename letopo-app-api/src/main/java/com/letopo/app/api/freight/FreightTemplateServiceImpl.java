@@ -7,11 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: kbq
- * Date: 2019-07-07
- * Time: 下午7:50
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-30 15:08
  */
 @Service
 public class FreightTemplateServiceImpl implements FreightTemplateService {

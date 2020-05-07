@@ -1,10 +1,5 @@
 package com.letopo.app.api.appraise;
 
-/*
-@author kbq
-@date  2019/7/6 - 10:18
-*/
-
 import com.letopo.core.annotation.HttpMethod;
 import com.letopo.core.annotation.HttpOpenApi;
 import com.letopo.core.annotation.HttpParam;
@@ -15,6 +10,11 @@ import com.letopo.data.dto.appraise.AppraiseRequestDTO;
 import com.letopo.data.dto.appraise.AppraiseResponseDTO;
 import com.letopo.data.model.Page;
 
+/**
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-30 17:16
+ */
 @HttpOpenApi(group = "appraise", description = "评价商品")
 public interface AppraiseService {
 

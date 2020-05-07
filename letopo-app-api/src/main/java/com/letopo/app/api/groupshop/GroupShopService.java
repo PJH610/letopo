@@ -10,11 +10,9 @@ import com.letopo.data.model.Page;
 import java.rmi.ServerException;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: rize
- * Date: 2019/11/24
- * Time: 15:15
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-30 11:08
  */
 @HttpOpenApi(group = "groupshop", description = "团购服务")
 public interface GroupShopService {

@@ -11,7 +11,9 @@ import com.letopo.data.dto.CategoryDTO;
 import java.util.List;
 
 /**
- * Created by rize on 2019/7/2.
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-30 18:16
  */
 @HttpOpenApi(group = "category", description = "类目服务")
 public interface CategoryService {

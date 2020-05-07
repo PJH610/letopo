@@ -20,10 +20,11 @@ import org.springframework.util.CollectionUtils;
 import java.util.Date;
 import java.util.List;
 
-/*
-@author kbq
-@date  2019/7/5 - 10:48
-*/
+/**
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-30 13:12
+ */
 @Service
 public class CollectServiceImpl implements CollectService {
 

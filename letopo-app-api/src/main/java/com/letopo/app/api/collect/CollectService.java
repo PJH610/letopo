@@ -9,10 +9,11 @@ import com.letopo.core.exception.ServiceException;
 import com.letopo.data.dto.CollectDTO;
 import com.letopo.data.model.Page;
 
-/*
-@author kbq
-@date  2019/7/5 - 10:13
-*/
+/**
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-30 13:12
+ */
 @HttpOpenApi(group = "collect", description = "收藏表单")
 public interface CollectService {
 

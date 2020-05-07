@@ -12,7 +12,9 @@ import com.letopo.data.dto.CartDTO;
 import java.util.List;
 
 /**
- * Created by rize on 2019/7/3.
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-30 18:16
  */
 @HttpOpenApi(group = "cart", description = "购物车服务")
 public interface CartService {

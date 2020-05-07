@@ -10,11 +10,9 @@ import java.rmi.ServerException;
 import java.util.List;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: rize
- * Date: 2019/11/24
- * Time: 15:26
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-30 11:08
  */
 @Service
 public class GroupShopServiceImpl implements GroupShopService {

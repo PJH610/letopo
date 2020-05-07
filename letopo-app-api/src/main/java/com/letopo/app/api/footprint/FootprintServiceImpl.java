@@ -14,11 +14,9 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: kbq
- * Date: 2019-07-08
- * Time: 上午8:58
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-30 14:18
  */
 @Service
 public class FootprintServiceImpl implements  FootprintService {

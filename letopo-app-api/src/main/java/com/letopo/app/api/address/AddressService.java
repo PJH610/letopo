@@ -1,10 +1,5 @@
 package com.letopo.app.api.address;
 
-/*
-@author kbq
-@date  2019/7/4 - 21:36
-*/
-
 import com.letopo.core.annotation.HttpMethod;
 import com.letopo.core.annotation.HttpOpenApi;
 import com.letopo.core.annotation.HttpParam;
@@ -14,6 +9,12 @@ import com.letopo.core.exception.ServiceException;
 import com.letopo.data.domain.AddressDO;
 
 import java.util.List;
+
+/**
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-28 17:16
+ */
 
 @HttpOpenApi(group = "address", description = "收货地址")
 public interface AddressService {

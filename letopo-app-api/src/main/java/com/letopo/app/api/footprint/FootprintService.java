@@ -11,11 +11,9 @@ import com.letopo.data.dto.FootprintDTO;
 import java.util.List;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: kbq
- * Date: 2019-07-08
- * Time: 上午8:33
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-30 14:18
  */
 
 @HttpOpenApi(group = "footprint", description = "足迹")

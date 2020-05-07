@@ -7,8 +7,11 @@ import com.letopo.data.dto.IntegralIndexDataDTO;
 
 /**
  * 将多个接口聚合到一起，减少HTTP访问次数
- * Created by rize on 2019/7/14.
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-30 11:08
  */
+
 @HttpOpenApi(group = "integral", description = "聚合接口")
 public interface IntegralService {
 

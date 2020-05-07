@@ -22,7 +22,9 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
- * Created by rize on 2019/7/14.
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-30 11:30
  */
 @Service
 public class IntegralServiceImpl implements IntegralService {

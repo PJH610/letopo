@@ -7,7 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by rize on 2019/7/21.
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-30 13:22
  */
 @Service
 public class ConfigServiceImpl implements ConfigService{

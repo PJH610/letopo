@@ -10,7 +10,9 @@ import com.letopo.data.dto.goods.SpuDTO;
 import com.letopo.data.model.Page;
 
 /**
- * Created by rize on 2019/7/1.
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-30 15:11
  */
 @HttpOpenApi(group = "goods", description = "商品服务")
 public interface GoodsService {

@@ -9,11 +9,9 @@ import com.letopo.core.exception.ServiceException;
 import com.letopo.data.dto.order.OrderRequestDTO;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: kbq
- * Date: 2019-07-07
- * Time: 下午7:40
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-30 15:08
  */
 @HttpOpenApi(group = "freight", description = "运费计算api")
 public interface FreightTemplateService {

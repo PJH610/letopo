@@ -11,7 +11,9 @@ import com.letopo.core.exception.ServiceException;
 import com.letopo.data.dto.UserDTO;
 
 /**
- * Created by rize on 2019/6/30.
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-29 21:08
  */
 @HttpOpenApi(group = "user", description = "用户服务")
 public interface UserService {
