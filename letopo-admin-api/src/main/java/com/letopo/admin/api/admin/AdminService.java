@@ -12,7 +12,9 @@ import com.letopo.data.dto.AdminDTO;
 import com.letopo.data.model.Page;
 
 /**
- * Created by rize on 2019/4/8.
+ * @author jh
+ * @version 1.0
+ * @date 2020-05-04 11:16
  */
 @HttpOpenApi(group = "admin", description = "管理员服务")
 public interface AdminService {

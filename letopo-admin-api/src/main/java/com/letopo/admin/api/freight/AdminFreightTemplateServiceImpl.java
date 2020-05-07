@@ -26,11 +26,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: kbq
- * Date: 2019-07-07
- * Time: 下午4:25
+ * @author jh
+ * @version 1.0
+ * @date 2020-05-04 10:49
  */
 @Service
 public class AdminFreightTemplateServiceImpl implements AdminFreightTemplateService {

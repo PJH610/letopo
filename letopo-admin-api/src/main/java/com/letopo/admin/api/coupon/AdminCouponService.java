@@ -13,11 +13,9 @@ import com.letopo.data.model.Page;
 import java.util.Date;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: kbq
- * Date: 2019-07-12
- * Time: 下午10:47
+ * @author jh
+ * @version 1.0
+ * @date 2020-05-04 13:28
  */
 
 @HttpOpenApi(group = "admin.coupon", description = "优惠卷")

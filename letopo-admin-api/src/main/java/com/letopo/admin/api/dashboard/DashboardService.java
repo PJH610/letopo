@@ -8,7 +8,9 @@ import com.letopo.core.annotation.param.NotNull;
 import com.letopo.core.exception.ServiceException;
 
 /**
- * Created by rize on 2019/7/15.
+ * @author jh
+ * @version 1.0
+ * @date 2020-05-04 15:11
  */
 @HttpOpenApi(group = "admin.dashboard" , description = "首页数据服务")
 public interface DashboardService {

@@ -13,11 +13,9 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.Date;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: kbq
- * Date: 2019-07-20
- * Time: 上午10:47
+ * @author jh
+ * @version 1.0
+ * @date 2020-05-04 14:32
  */
 @Service
 public class AdminMerchantConfigServiceImpl implements AdminMerchantConfigService {

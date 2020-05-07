@@ -14,7 +14,9 @@ import com.letopo.data.model.Page;
 import java.util.List;
 
 /**
- * Created by rize on 2019/7/12.
+ * @author jh
+ * @version 1.0
+ * @date 2020-05-04 13:39
  */
 @HttpOpenApi(group = "admin.category", description = "类目管理服务")
 public interface AdminCategoryService {

@@ -27,11 +27,9 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: rize
- * Date: 2020/3/11
- * Time: 11:03
+ * @author jh
+ * @version 1.0
+ * @date 2020-04-26 15:26
  */
 @Service("generatorService")
 public class GeneratorServiceImpl implements GeneratorService {

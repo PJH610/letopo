@@ -18,11 +18,9 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: kbq
- * Date: 2019-07-08
- * Time: 下午9:24
+ * @author jh
+ * @version 1.0
+ * @date 2020-05-04 11:30
  */
 @Service
 public class AdminAdvertisementServiceImpl implements AdminAdvertisementService {

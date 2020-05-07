@@ -14,11 +14,9 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: kbq
- * Date: 2019-07-15
- * Time: 下午3:56
+ * @author jh
+ * @version 1.0
+ * @date 2020-05-04 11:59
  */
 @Service
 public class AdminAppraiseImpl implements  AdminAppraise {

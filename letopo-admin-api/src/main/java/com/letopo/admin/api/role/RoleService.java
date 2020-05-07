@@ -15,7 +15,9 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by rize on 2019/4/11.
+ * @author jh
+ * @version 1.0
+ * @date 2020-05-05 15:26
  */
 @HttpOpenApi(group = "admin.role", description = "角色服务")
 public interface RoleService {

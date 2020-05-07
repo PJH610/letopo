@@ -12,11 +12,9 @@ import com.letopo.data.dto.freight.FreightTemplateDTO;
 import java.util.List;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: kbq
- * Date: 2019-07-07
- * Time: 下午3:37
+ * @author jh
+ * @version 1.0
+ * @date 2020-05-04 10:45
  */
 @HttpOpenApi(group = "admin.freight", description = "运费模板")
 public interface AdminFreightTemplateService {

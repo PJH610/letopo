@@ -11,11 +11,9 @@ import com.letopo.data.domain.UserDO;
 import com.letopo.data.model.Page;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: kbq
- * Date: 2019-07-11
- * Time: 下午7:30
+ * @author jh
+ * @version 1.0
+ * @date 2020-05-05 14:07
  */
 
 @HttpOpenApi(group = "admin.user", description = "用户管理")

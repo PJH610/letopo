@@ -14,7 +14,9 @@ import com.letopo.data.model.Page;
 import java.util.List;
 
 /**
- * Created by rize on 2019/7/10.
+ * @author jh
+ * @version 1.0
+ * @date 2020-05-05 10:17
  */
 @HttpOpenApi(group = "admin.order", description = "管理员订单服务")
 public interface AdminOrderService {

@@ -9,11 +9,9 @@ import com.letopo.core.exception.ServiceException;
 import com.letopo.data.dto.ConfigDTO;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: kbq
- * Date: 2019-07-20
- * Time: 上午10:18
+ * @author jh
+ * @version 1.0
+ * @date 2020-05-04 14:50
  */
 
 @HttpOpenApi(group = "admin.merchant", description = "商铺信息配置")

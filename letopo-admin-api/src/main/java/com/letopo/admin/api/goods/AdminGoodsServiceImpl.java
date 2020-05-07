@@ -32,7 +32,9 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * Created by rize on 2019/7/11.
+ * @author jh
+ * @version 1.0
+ * @date 2020-05-04 17:50
  */
 @Service
 public class AdminGoodsServiceImpl implements AdminGoodsService {

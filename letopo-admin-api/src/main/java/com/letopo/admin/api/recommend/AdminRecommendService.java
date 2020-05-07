@@ -11,11 +11,9 @@ import com.letopo.data.dto.RecommendDTO;
 import com.letopo.data.model.Page;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: kbq
- * Date: 2019-07-08
- * Time: 下午3:42
+ * @author jh
+ * @version 1.0
+ * @date 2020-05-05 10:17
  */
 
 @HttpOpenApi(group = "admin.recommend", description = "推荐商品")

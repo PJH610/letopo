@@ -1,10 +1,4 @@
-package com.letopo.admin.api.goods;/*
-@PackageName:com.letopo.admin.api.goods
-@ClassName: AdminGroupShopGoodsServiceImpl
-@Description:
-@author kbq
-@date 19-11-13下午4:21
-*/
+package com.letopo.admin.api.goods;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
@@ -40,6 +34,12 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+
+/**
+ * @author jh
+ * @version 1.0
+ * @date 2020-05-05 10:12
+ */
 @Service
 @EnableScheduling
 public class AdminGroupShopGoodsServiceImpl implements AdminGroupShopGoodsService {

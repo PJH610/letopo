@@ -14,9 +14,9 @@ import java.util.List;
 /**
  * Created with IntelliJ IDEA.
  * Description: 代码生成器、现在主要是逆向生成 Admin 的常用CRUD。
- * Attention: 要使用此功能，请保证unimall的项目结构不要变。否则文件将保存进错误的地址！
- * User: rize
- * Date: 2020/3/11
+ * Attention: 要使用此功能，请保证letopo的项目结构不要变。否则文件将保存进错误的地址！
+ * User: jh
+ * Date: 2020/04/26
  * Time: 10:40
  */
 @HttpOpenApi(group = "admin.generator", description = "生成器服务")

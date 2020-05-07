@@ -12,6 +12,11 @@ import com.letopo.data.model.Page;
 
 import java.util.List;
 
+/**
+ * @author jh
+ * @version 1.0
+ * @date 2020-05-04 18:15
+ */
 @HttpOpenApi(group = "admin.groupShop", description = "管理团购商品服务")
 public interface AdminGroupShopGoodsService {
 

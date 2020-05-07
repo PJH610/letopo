@@ -19,11 +19,9 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: kbq
- * Date: 2019-07-12
- * Time: 下午11:26
+ * @author jh
+ * @version 1.0
+ * @date 2020-05-04 13:28
  */
 @Service
 public class AdminCouponServiceImpl implements AdminCouponService {
