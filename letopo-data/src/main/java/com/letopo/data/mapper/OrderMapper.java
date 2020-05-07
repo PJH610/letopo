@@ -2,6 +2,7 @@ package com.letopo.data.mapper;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
 import com.letopo.data.domain.OrderDO;
+import com.letopo.data.dto.order.OrderDTO;
 import com.letopo.data.model.KVModel;
 import org.apache.ibatis.annotations.Param;
 
@@ -16,7 +17,7 @@ import java.util.List;
  */
 public interface OrderMapper extends BaseMapper<OrderDO> {
 
-    public List<com.iotechn.unimall.data.dto.order.OrderDTO> selectOrderPage(@Param("status") Integer status, @Param("offset") Integer offset, @Param("limit") Integer limit, @Param("userId") Long userId);
+    public List<OrderDTO> selectOrderPage(@Param("status") Integer status, @Param("offset") Integer offset, @Param("limit") Integer limit, @Param("userId") Long userId);
 
     public Long countOrder(@Param("status") Integer status, @Param("offset") Integer offset, @Param("limit") Integer limit, @Param("userId") Long userId);
 

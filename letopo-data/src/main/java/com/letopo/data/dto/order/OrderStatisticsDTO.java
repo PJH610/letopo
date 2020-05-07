@@ -1,11 +1,13 @@
 package com.letopo.data.dto.order;
 
 import lombok.Data;
+
 /**
+ * Created with IntelliJ IDEA.
  * Description: 订单统计传输模型
- * @author jh
- * @version 1.0
- * @date 2020-04-27 17:18
+ * User: jh
+ * Date: 2020/2/15
+ * Time: 17:59
  */
 @Data
 public class OrderStatisticsDTO {

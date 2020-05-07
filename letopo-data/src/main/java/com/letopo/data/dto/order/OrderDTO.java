@@ -9,9 +9,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * @author jh
- * @version 1.0
- * @date 2020-04-27 17:18
+ * Created by rize on 2019/7/6.
  */
 @Data
 public class OrderDTO extends SuperDTO {
