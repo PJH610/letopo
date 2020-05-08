@@ -66,22 +66,22 @@ public class UserServiceImpl implements UserService {
 
     private OkHttpClient okHttpClient = new OkHttpClient();
 
-    @Value("${com.iotechn.unimall.wx.mini.app-id}")
+    @Value("${com.letopo.wx.mini.app-id}")
     private String wxMiNiAppid;
 
-    @Value("${com.iotechn.unimall.wx.mini.app-secret}")
+    @Value("${com.letopo.wx.mini.app-secret}")
     private String wxMiNiSecret;
 
-    @Value("${com.iotechn.unimall.wx.app.app-id}")
+    @Value("${com.letopo.wx.app.app-id}")
     private String wxAppAppid;
 
-    @Value("${com.iotechn.unimall.wx.app.app-secret}")
+    @Value("${com.letopo.wx.app.app-secret}")
     private String wxAppSecret;
 
-    @Value("${com.iotechn.unimall.wx.h5.app-id}")
+    @Value("${com.letopo.wx.h5.app-id}")
     private String wxH5Appid;
 
-    @Value("${com.iotechn.unimall.wx.h5.app-secret}")
+    @Value("${com.letopo.wx.h5.app-secret}")
     private String wxH5Secret;
 
     @Override

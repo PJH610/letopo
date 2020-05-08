@@ -37,16 +37,16 @@ public class UserBizService {
 
     private static final String CA_MINI_WECHAT_ACCESS = "CA_MINI_WECHAT_ACCESS";
 
-    @Value("${com.iotechn.unimall.wx.h5.app-id}")
+    @Value("${com.letopo.wx.h5.app-id}")
     private String wxH5Appid;
 
-    @Value("${com.iotechn.unimall.wx.h5.app-secret}")
+    @Value("${com.letopo.wx.h5.app-secret}")
     private String wxH5Secret;
 
-    @Value("${com.iotechn.unimall.wx.mini.app-id}")
+    @Value("${com.letopo.wx.mini.app-id}")
     private String wxMiniAppid;
 
-    @Value("${com.iotechn.unimall.wx.mini.app-secret}")
+    @Value("${com.letopo.wx.mini.app-secret}")
     private String wxMiniSecret;
 
     @Autowired

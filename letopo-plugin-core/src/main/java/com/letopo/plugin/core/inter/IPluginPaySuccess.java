@@ -1,5 +1,7 @@
 package com.letopo.plugin.core.inter;
 
+import com.letopo.data.dto.order.OrderDTO;
+
 /**
  * @author jh
  * @version 1.0
@@ -7,6 +9,6 @@ package com.letopo.plugin.core.inter;
  */
 public interface IPluginPaySuccess {
 
-//    public OrderDTO invoke(OrderDTO orderDTO, String prepayId);
+    public OrderDTO invoke(OrderDTO orderDTO, String prepayId);
 
 }

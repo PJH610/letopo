@@ -1,14 +1,14 @@
-package com.iotechn.unimall.admin.api.${packageName};
+package com.letopo.admin.api.${packageName};
 
 
-import com.iotechn.unimall.core.exception.AdminServiceException;
-import com.iotechn.unimall.core.exception.ExceptionDefinition;
-import com.iotechn.unimall.core.exception.ServiceException;
-import com.iotechn.unimall.data.model.Page;
+import com.letopo.core.exception.AdminServiceException;
+import com.letopo.core.exception.ExceptionDefinition;
+import com.letopo.core.exception.ServiceException;
+import com.letopo.data.model.Page;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.mapper.Wrapper;
-import com.iotechn.unimall.data.domain.${doName}DO;
-import com.iotechn.unimall.data.mapper.${doName}Mapper;
+import com.letopo.data.domain.${doName}DO;
+import com.letopo.data.mapper.${doName}Mapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

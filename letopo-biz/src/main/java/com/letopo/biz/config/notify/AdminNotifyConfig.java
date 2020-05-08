@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class AdminNotifyConfig {
 
-    @Value("${com.iotechn.admin.notify.enable}")
+    @Value("${com.letopo.notify.enable}")
     private String enable;
 
     @Bean

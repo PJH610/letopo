@@ -57,10 +57,10 @@ public class OrderBizService {
     @Autowired
     private WxPayService wxPayService;
 
-    @Value("${com.iotechn.unimall.wx.mini.app-id}")
+    @Value("${com.letopo.wx.mini.app-id}")
     private String wxMiNiAppid;
 
-    @Value("${com.iotechn.unimall.wx.app.app-id}")
+    @Value("${com.letopo.wx.app.app-id}")
     private String wxAppAppid;
 
     public boolean changeOrderStatus(String orderNo, int nowStatus, OrderDO orderDO) throws ServiceException {

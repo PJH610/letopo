@@ -5,7 +5,6 @@ import com.letopo.core.annotation.HttpMethod;
 import com.letopo.core.annotation.HttpOpenApi;
 import com.letopo.core.annotation.HttpParam;
 import com.letopo.core.annotation.param.NotNull;
-import com.letopo.core.exception.ExceptionDefinition;
 import com.letopo.core.exception.ServiceException;
 import com.letopo.data.dto.PermissionPointDTO;
 import com.letopo.launcher.exception.LauncherExceptionDefinition;
@@ -244,7 +243,7 @@ public class ApiManager implements InitializingBean,ApplicationContextAware {
                         }
                     }
                     docMethod.setRetType(retType);
-                    if(retType.startsWith("com.iotechn")){
+                    if(retType.startsWith("com.letopo")){
                         //若返回值类型为复杂类型
                         List<ApiDocumentModel.Field> fieldList = new ArrayList<>();
                         Class returnClass = null;

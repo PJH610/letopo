@@ -1,7 +1,7 @@
-package com.iotechn.unimall.data.mapper;
+package com.letopo.data.mapper;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
-import com.iotechn.unimall.data.domain.${doName}DO;
+import com.letopo.data.domain.${doName}DO;
 
 /**
  * Generate Code By Unimall

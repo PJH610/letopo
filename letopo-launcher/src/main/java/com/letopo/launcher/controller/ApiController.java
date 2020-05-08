@@ -53,7 +53,7 @@ public class ApiController {
     @Autowired
     private StringRedisTemplate userRedisTemplate;
 
-    @Value("${com.iotechn.unimall.env}")
+    @Value("${com.letopo.env}")
     private String ENV;
 
     @RequestMapping(method = {RequestMethod.POST, RequestMethod.GET})

@@ -1,5 +1,7 @@
 package com.letopo.plugin.core.inter;
 
+import com.letopo.data.dto.order.OrderRequestDTO;
+
 /**
  * @author jh
  * @version 1.0
@@ -7,6 +9,6 @@ package com.letopo.plugin.core.inter;
  */
 public interface IPluginPreOrder {
 
-//    public OrderRequestDTO invoke(OrderRequestDTO requestDTO);
+    public OrderRequestDTO invoke(OrderRequestDTO requestDTO);
 
 }

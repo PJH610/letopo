@@ -1,4 +1,4 @@
-package com.iotechn.unimall.data.domain;
+package com.letopo.data.domain;
 
 import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.annotations.TableName;

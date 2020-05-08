@@ -1,13 +1,13 @@
-package com.iotechn.unimall.admin.api.${packageName};
+package com.letopo.admin.api.${packageName};
 
-import com.iotechn.unimall.core.annotation.HttpMethod;
-import com.iotechn.unimall.core.annotation.HttpOpenApi;
-import com.iotechn.unimall.core.annotation.HttpParam;
-import com.iotechn.unimall.core.annotation.HttpParamType;
-import com.iotechn.unimall.core.annotation.param.NotNull;
-import com.iotechn.unimall.core.exception.ServiceException;
-import com.iotechn.unimall.data.model.Page;
-import com.iotechn.unimall.data.domain.${doName}DO;
+import com.letopo.core.annotation.HttpMethod;
+import com.letopo.core.annotation.HttpOpenApi;
+import com.letopo.core.annotation.HttpParam;
+import com.letopo.core.annotation.HttpParamType;
+import com.letopo.core.annotation.param.NotNull;
+import com.letopo.core.exception.ServiceException;
+import com.letopo.data.model.Page;
+import com.letopo.data.domain.${doName}DO;
 
 /**
  * Generate Code By Unimall

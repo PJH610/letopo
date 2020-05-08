@@ -35,10 +35,10 @@ public class KdniaoTrackQueryAPI implements ShipTraceQuery {
 
     private static final Logger logger = LoggerFactory.getLogger(KdniaoTrackQueryAPI.class);
 
-    @Value("${com.iotechn.ship.query.kdn.app-key}")
+    @Value("${com.letopo.ship.query.kdn.app-key}")
     private String businessID;
 
-    @Value("${com.iotechn.ship.query.kdn.business-id}")
+    @Value("${com.letopo.ship.query.kdn.business-id}")
     private String appKey;
 
     private static final String REQ_URL = "http://api.kdniao.com/Ebusiness/EbusinessOrderHandle.aspx";

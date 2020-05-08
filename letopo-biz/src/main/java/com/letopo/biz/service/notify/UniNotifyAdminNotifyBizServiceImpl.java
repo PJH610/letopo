@@ -22,13 +22,13 @@ import java.util.stream.Collectors;
  */
 public class UniNotifyAdminNotifyBizServiceImpl implements AdminNotifyBizService {
 
-    @Value("${com.iotechn.admin.notify.uninotify.app-id}")
+    @Value("${com.letopo.admin.notify.uninotify.app-id}")
     private String appId;
 
-    @Value("${com.iotechn.admin.notify.uninotify.app-secret}")
+    @Value("${com.letopo.admin.notify.uninotify.app-secret}")
     private String appSecret;
 
-    @Value("${com.iotechn.admin.notify.uninotify.url}")
+    @Value("${com.letopo.admin.notify.uninotify.url}")
     private String serverUrl;
 
     private OkHttpClient okHttpClient = new OkHttpClient();

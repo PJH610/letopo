@@ -71,13 +71,13 @@ public class AdminServiceImpl implements AdminService {
     @Autowired
     private SMSClient smsClient;
 
-    @Value("${com.iotechn.admin.notify.uninotify.url}")
+    @Value("${com.letopo.admin.notify.uninotify.url}")
     private String uniNotifyUrl;
 
-    @Value("${com.iotechn.admin.notify.uninotify.app-secret}")
+    @Value("${com.letopo.admin.notify.uninotify.app-secret}")
     private String uniNotifyAppSecret;
 
-    @Value("${com.iotechn.admin.notify.uninotify.app-id}")
+    @Value("${com.letopo.admin.notify.uninotify.app-id}")
     private String uniNotifyAppId;
 
     private final static String ADMIN_MSG_CODE = "admin_msg_code_";
